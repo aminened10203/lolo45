@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Georama', sans-serif;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(20, 19, 19);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+h1 {
+    color: white;
+    background: black;
+    padding: 30px 12px;
+    text-align: center;
+    font-size: 30px;
+}
+.container {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    background: pink;
+}
+.content {
+    position: relative;
+    width: 31%;
+    margin: 0 1.16%;
+    float: left;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 20px white;
+}
+.content h2 {
+    color:white;
+    border-radius: solid red;
+    border-radius: 5px;
+    text-shadow: 0px 0px 10px gray;
+    text-align: center;
+    font-family: 'Georama', sans-serif;
+}
+.rounded {
+    padding: 1px;
+    border: 8px;
+    background: linear-gradient(60deg, #EFA51A 10%, #ce00 100%)
+}
+.content h2 {
+    font-family: 'Architects Daughter', cursive;
+}
+button {
+        font-family: 'Architects Daughter', cursive;
+        font-size: 1.5vw;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        background-color: black;
+        border: 1px solid orange;
+        border-radius: 5px;
+        padding:5px 15px;
+        color: white;
+        align-items: center;
+        margin-left: 32%
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+    }
+    .image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10%;
+    }
+    .image h2 {
+    color:white;
+    border-radius: solid red;
+    border-radius: 5px;
+    text-shadow: 0px 0px 10px gray;
+    text-align: center;
+    font-family: 'Georama', sans-serif;
+    background: black;
+    padding: 8px 12px;
+    }
+    .image h3 {
+        font-family: 'Architects Daughter', cursive;
+        color: white;
+        font-size: 30px
+    }
+    .image h3 {
+        text-align: center;
+        padding: 8px 12px;
+        margin: 10px
+    }
+    .image p {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: 'Architects Daughter', cursive;
+        text-shadow: 0px 0px 10px gray;
+    }
+    .salmon h3 {
+        color: orange;
+        text-shadow: 0px 0px 10px orange;
+    }
+    .salmon p {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: 'Architects Daughter', cursive;
+        text-shadow: 0px 0px 10px gray;
+    }
+    .salmon img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10%;
+        width: 40%
+    }
+    
